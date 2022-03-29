@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	width: 100vw;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.title {
+	margin-bottom: 2rem;
+}
+
+.container {
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.number-1,
+.number-2 {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.6rem;
+	cursor: pointer;
+}
+
+input {
+	padding: 0.6rem 1rem;
+}
+
+.result {
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+.btn-box {
+	display: flex;
+	gap: 2rem;
+}
+
+.btn-box button {
+	padding: 0.5rem 1rem;
+}
+
+.reset-btn {
+	padding: 0.5rem 1rem;
+}

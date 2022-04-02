@@ -46,7 +46,9 @@ secBtn.addEventListener("click", () => {
 pryBtn.addEventListener("click", () => {
 	if (secResult.textContent === "") {
 		result.textContent = 'PLEASE CALCULATE THE "S" VALUE FIRST';
-		timeout(result.textContent);
+		setTimeout(() => {
+			result.textContent = "";
+		}, 2000);
 	} else {
 		console.log(s);
 		let a = parseFloat(num1.value);

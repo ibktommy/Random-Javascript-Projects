@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	width: 100vw;
+	min-height: 100vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+input,
+button {
+	padding: 1rem 0rem;
+}
+
+input {
+	padding-left: 0.5rem;
+}
+
+.result {
+	text-align: center;
+	font-size: 1.6rem;
+}
